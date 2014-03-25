@@ -1,0 +1,16 @@
+
+.content {
+    position: relative;
+}
+
+.thumbWrap {
+    display: inline-block;
+}
+
+.thumb {
+    height: 140px;
+    width: 140px;
+    background-size: contain;
+    background-position: center center;
+    display: block;
+}

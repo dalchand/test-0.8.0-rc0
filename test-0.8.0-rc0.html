@@ -1,0 +1,17 @@
+<head>
+  <title>test-0.8.0-rc0</title>
+</head>
+
+<body>
+  {{> photos}}
+</body>
+
+<template name="photos">
+  <div class="content">
+    {{#each photos}}
+    <div class="thumbWrap item">
+      <i class="thumb" style="background-image:url('{{url}}');"></i>
+    </div>
+    {{/each}}
+  </div>
+</template>
