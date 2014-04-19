@@ -5,14 +5,15 @@ if (Meteor.isClient) {
 		var el = this.find(".content");
 		if(el) {
 			$(el).on('click', function() {
-				event.stopPropagation();
+				//event.stopPropagation();
+				console.log('click content')
 			});
 		}
 	}
 
     Template.photos.events({
 		'click .item' : function(event, template){
-	    	console.log('click');
+	    	console.log('click item');
 		}
     });
 
